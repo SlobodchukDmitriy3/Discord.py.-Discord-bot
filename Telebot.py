@@ -6,5 +6,3 @@ class MyClient(discord.Client):
             print('Message from {0.autor: {0.content}'.format(message))
 client = MyClient()
 client.run('Here is the TOKEN')
-
-    
